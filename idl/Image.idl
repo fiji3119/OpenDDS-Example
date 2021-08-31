@@ -1,0 +1,20 @@
+#ifndef IMAGE_IDL
+#define IMAGE_IDL
+#include "orbsvcs/TimeBase.idl"
+#include "Common.idl"
+
+typedef sequence<octet> Pixels;
+
+module MyExample {
+   module msg {
+      @topic
+      struct Image {
+         TimeBase::TimeT  timestamp;
+         long             framecount;
+         long             width;
+         long             height;
+         Pixels           data;
+      }; /* Image */
+   }; /* msg */
+}; /* MyExample */
+#endif /* IMAGE_IDL */

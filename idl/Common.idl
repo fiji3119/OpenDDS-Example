@@ -1,0 +1,12 @@
+#ifndef COMMON_IDL
+#define COMMON_IDL
+
+typedef float  Vector2f[2];
+typedef double Vector2d[2];
+typedef long   Vector2i[2];
+
+typedef float  Vector3f[3];
+typedef double Vector3d[3];
+typedef long   Vector3i[3];
+
+#endif /* COMMON_IDL */
