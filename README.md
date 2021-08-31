@@ -1,4 +1,5 @@
-# Simple Pub/Sub example 
+# Simple Pub/Sub example using OpenDDS
+This example has been tested with OpenDDS v3.14 on Ubuntu 18.04 with OpenCV-3.4.7
 ### First, install OpenDDS
 To install OpenDDS-3.14, download tar from https://opendds.org/downloads.html and 
 follow instructions in [INSTALL.md](https://github.com/objectcomputing/OpenDDS/blob/master/INSTALL.md). For quick compile and install:
